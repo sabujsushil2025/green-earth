@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- tailwind cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body>
-    
+
+<body class="bg-[#f0fdf4]">
+    <!-- Navbar Section-->
+    <header class="bg-[#157f3d] text-white">
+        <nav class="mx-auto max-w-7xl px-4 md:px-8">
+            <div class="flex items-center justify-between py-4 gap-4">
+               <!-- Logo -->
+                <a class="text-xl font-bold cursor-pointer">Green Earth</a>
+                <!-- Menu -->
+                <ul class=" md:flex items-center gap-6 text-sm">
+                    <li><a class="hover:underline cursor-pointer">About</a></li>
+                    <li><a class="hover:underline cursor-pointer">Gallery</a></li>
+                    <li><a class="hover:underline cursor-pointer">Plant a Tree</a></li>
+                </ul>
+
+                <!-- Button -->
+                <div>
+                    <a class="items-center rounded-full bg-[#f9cb15] px-4 py-2 font-semibold text-[#13803d] cursor-pointer hover:bg-yellow-300">Plant a Tree</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+     
+<script src="main.js"></script>
 </body>
+
 </html>
